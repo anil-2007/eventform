@@ -7,12 +7,14 @@
     <style>
         body{
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: rgb(232, 244, 254);
             padding-top: 170px;
             margin: 0%;
+            background: url("screenshot-1760336705502.png") no-repeat center 147px fixed;
+            background-size: cover;
+
         }
         .top{
-            background-color: rgb(87, 203, 87);
+            background-color: rgba(87, 157, 236,1);
             text-align: center;
             color: white;
             height: 120px;
@@ -49,61 +51,66 @@
         }
 
         .about{
-            background-color: white;
+            background-color: rgba(255, 255,255,0.1);
             height: 210px;
             width: 900px;
             margin-left: 310px;
             margin-top: 40px;
-            border-radius: 8px;
+            border-radius: 50px;
+            backdrop-filter: blur(25px);
+            
             h2{
                 margin: 20px;
                 color: rgb(4, 106, 248);
             }
             p{
                 margin: 20px;
+                color: white;
             }
         }
 
         .eventschedule{
-            background-color: white;
+            background-color: rgba(255, 255,255,0.1);
             width: 900px;
             height: 320px;
             margin-left: 310px;
-            border-radius: 8px;
+            border-radius: 50px;
             margin-top: 80px;
+            backdrop-filter: blur(25px);
         }
         .es{
                 margin: 20px;
                 color: rgb(4, 106, 248);
         }
         table{
-            border: 1px dotted rgb(183, 186, 186);
+            border: 2px solid rgb(183, 186, 186);
             border-collapse: collapse;
             width: 860px;
             margin-left: 20px;
             /* border-radius: 8px; */
         }
         th{
-            border: 1px solid rgb(183, 186, 186);
-            background-color: rgb(213, 222, 222);
+            border: 1px solid rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255,0.1);
             padding: 8px;
+            backdrop-filter: blur(25px);
+            color: white;
         }
         td{
-            border: 1px solid rgb(183, 186, 186);
+            border: 1px solid rgb(255, 255, 255);
+            color: rgba(255,255, 255,1);
             padding: 8px;
+            backdrop-filter: blur(25px);
+            background-color: rgba(255, 255, 255,0.1);
         }
-        .tr2{
-            background-color: rgb(242, 246, 246);
-        }
-        .tr4{
-            background-color: rgb(242, 246, 246);
-        }
+        
         .section3{
-            background-color: white;
+            backdrop-filter: blur(25px);
+            background-color: rgba(255, 255, 255,0.1);
             width: 900px;
             height: 295px;
             margin-left: 310px;
-            border-radius: 8px;
+            border-radius: 50px;
             margin-top: 80px;
         }
         .meet{
@@ -113,13 +120,17 @@
         strong{
             color: rgb(4, 106, 248);
         }
+        li{
+            color: white;
+        }
         
         .section4{
-            background-color: white;
+            backdrop-filter: blur(25px);
+            background-color: rgba(255, 255, 255,0.1);
             width: 900px;
             height: 650px;
             margin-left: 310px;
-            border-radius: 8px;
+            border-radius: 50px;
             margin-top: 80px;
         }
         .contact{
@@ -130,17 +141,22 @@
         form{
             padding-left: 150px;
         }
+        label{
+            color: white;
+        }
         input{
             height: 40px;
             width: 600px;
             border-radius: 6px;
-            border:1px solid rgb(183, 186, 186);
+            border:1px solid rgba(255, 255, 255);
+            background-color: rgba(255, 255, 255,0);
         }
         textarea{
             height: 130px;
             width: 600px;
             border-radius: 4px;
-            border:1px solid rgb(183, 186, 186);
+            border:1px solid rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255,0);
         }
         button{
             height: 60px;
@@ -177,7 +193,7 @@
         <a href="#speakers">Speakers</a>
         <a href="#contact">Contact</a>
     </nav>
-
+    
     <section class="about" id="aboutevent"><br>
         <h2>About the Event</h2>
         <p>Next Level TechCon 2025 brings together leading minds in programming,
